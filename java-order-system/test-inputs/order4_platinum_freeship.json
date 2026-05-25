@@ -1,0 +1,14 @@
+{
+  "orderId": "ORD-004",
+  "customerId": "C001",
+  "items": [
+    { "productId": "P004", "quantity": 5 },
+    { "productId": "P006", "quantity": 3 },
+    { "productId": "P009", "quantity": 10 }
+  ],
+  "promoCode": "FREESHIP",
+  "shippingZone": 3,
+  "shippingType": "EXPRESS",
+  "allowPartialFulfillment": false,
+  "orderDate": "2026-05-20"
+}

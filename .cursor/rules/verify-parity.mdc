@@ -1,0 +1,23 @@
+---
+description: Two-way parity check between Java CLI output and Node.js API output. Use after any change to nodejs-api/ to verify outputs still match.
+alwaysApply: false
+---
+
+Run a two-way parity check for the order input I specify.
+
+Steps:
+1. Run Java CLI:
+   java -jar java-order-system/target/order-processing-system-1.0.0-jar-with-dependencies.jar [INPUT_FILE]
+
+2. Call Node.js API:
+   curl -s -X POST http://localhost:3000/api/orders \
+     -H "Content-Type: application/json" -d @[INPUT_FILE]
+
+Compare these fields across both (exclude processedAt):
+  status, grandTotal, subtotal, totalTax, promoDiscount, shippingCost,
+  promoCode, fraudFlags[].flag, fraudFlags[].severity, errors[]
+
+If all match: print "✅ PARITY VERIFIED"
+If any differ: print the field name, expected value (CLI), actual value (Node API), and likely cause based on ai-context/BUSINESS_RULES.md.
+
+Run for all 5 files in java-order-system/test-inputs/ unless I specify one file.

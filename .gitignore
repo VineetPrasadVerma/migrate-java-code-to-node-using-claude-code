@@ -1,0 +1,5 @@
+.cursor/mcp.json
+node_modules/
+nodejs-api/node_modules/
+nodejs-api/package-lock.json
+nodejs-api/.env

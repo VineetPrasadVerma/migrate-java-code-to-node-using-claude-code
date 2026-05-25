@@ -1,0 +1,21 @@
+Extract all business rules from the Java file I provide.
+
+Format each rule as:
+  RULE-[N]: IF [exact condition with threshold values] THEN [exact effect]
+  Source: [ClassName.methodName]
+  Node.js note: [anything that affects translation]
+
+Flag with ⚠️ any rule involving:
+- Hardcoded numbers without named constants
+- String parsing (date strings, enum strings)
+- Floating-point arithmetic with specific rounding
+- State changes (stock updates, order persistence)
+- Ordering-sensitive logic (must happen before/after something else)
+
+At the end, list any AMBIGUITIES — things where the rule is unclear from the code alone
+and would require asking a domain expert or looking at tests to clarify.
+
+Save the output to ai-context/BUSINESS_RULES.md:
+- If the file does not exist, create it with a top-level heading "# Business Rules"
+- If the file already exists, append a new section — do NOT overwrite existing sections
+- Use the service name as the section heading (e.g. "## PricingEngine")

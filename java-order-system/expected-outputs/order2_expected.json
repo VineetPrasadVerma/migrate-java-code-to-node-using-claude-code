@@ -1,0 +1,37 @@
+{
+  "_comment": "Order REJECTED due to HIGH_VALUE_NEW_CUSTOMER fraud flag",
+  "orderId": "ORD-002",
+  "status": "REJECTED",
+  "lineItems": [
+    {
+      "productId": "P001",
+      "productName": "Laptop Pro",
+      "category": "ELECTRONICS",
+      "quantity": 2,
+      "baseUnitPrice": 1200.0,
+      "tierDiscountRate": 0.0,
+      "volumeDiscountRate": 0.0,
+      "discountedUnitPrice": 1200.0,
+      "taxRate": 0.18,
+      "taxAmount": 432.0,
+      "lineSubtotal": 2400.0,
+      "lineTotal": 2832.0
+    }
+  ],
+  "subtotal": 2400.0,
+  "totalTax": 432.0,
+  "promoCode": null,
+  "promoDiscount": 0.0,
+  "shippingCost": 5.0,
+  "grandTotal": 2837.0,
+  "fraudFlags": [
+    {
+      "flag": "HIGH_VALUE_NEW_CUSTOMER",
+      "severity": "HIGH",
+      "description": "Order total $2837.00 exceeds $1000.00 threshold for new accounts (account age: 25 days, threshold: 90 days)"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "message": "Order rejected due to high-severity fraud detection"
+}

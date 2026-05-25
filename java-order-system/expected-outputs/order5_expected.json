@@ -1,0 +1,57 @@
+{
+  "_comment": "New Bronze customer (25 days), SAVE10 promo, zone=4 → 3 fraud flags (MEDIUM+MEDIUM+LOW), order PROCESSES",
+  "orderId": "ORD-005",
+  "status": "PROCESSED",
+  "lineItems": [
+    {
+      "productId": "P004",
+      "productName": "Blue Jeans",
+      "category": "CLOTHING",
+      "quantity": 10,
+      "baseUnitPrice": 60.0,
+      "tierDiscountRate": 0.0,
+      "volumeDiscountRate": 0.07,
+      "discountedUnitPrice": 55.8,
+      "taxRate": 0.05,
+      "taxAmount": 27.9,
+      "lineSubtotal": 558.0,
+      "lineTotal": 585.9
+    },
+    {
+      "productId": "P009",
+      "productName": "Vitamin C Supplements",
+      "category": "MEDICAL",
+      "quantity": 5,
+      "baseUnitPrice": 25.0,
+      "tierDiscountRate": 0.0,
+      "volumeDiscountRate": 0.03,
+      "discountedUnitPrice": 24.25,
+      "taxRate": 0.12,
+      "taxAmount": 14.55,
+      "lineSubtotal": 121.25,
+      "lineTotal": 135.8
+    }
+  ],
+  "subtotal": 679.25,
+  "totalTax": 42.45,
+  "promoCode": "SAVE10",
+  "promoDiscount": 67.93,
+  "shippingCost": 18.5,
+  "grandTotal": 672.27,
+  "fraudFlags": [
+    {
+      "flag": "PROMO_ABUSE",
+      "severity": "MEDIUM"
+    },
+    {
+      "flag": "SUSPICIOUS_ZONE",
+      "severity": "MEDIUM"
+    },
+    {
+      "flag": "BULK_PURCHASE",
+      "severity": "LOW"
+    }
+  ],
+  "errors": [],
+  "message": "Order processed with fraud review flags — see fraudFlags and warnings"
+}

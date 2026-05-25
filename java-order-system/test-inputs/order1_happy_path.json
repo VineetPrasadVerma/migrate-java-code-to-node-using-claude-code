@@ -1,0 +1,13 @@
+{
+  "orderId": "ORD-001",
+  "customerId": "C002",
+  "items": [
+    { "productId": "P001", "quantity": 1 },
+    { "productId": "P002", "quantity": 3 }
+  ],
+  "promoCode": "SAVE10",
+  "shippingZone": 2,
+  "shippingType": "STANDARD",
+  "allowPartialFulfillment": false,
+  "orderDate": "2026-05-20"
+}

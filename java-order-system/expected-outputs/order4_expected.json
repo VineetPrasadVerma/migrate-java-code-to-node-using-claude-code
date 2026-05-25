@@ -1,0 +1,59 @@
+{
+  "_comment": "Platinum customer, FREESHIP promo, mixed categories (CLOTHING + MEDICAL), EXPRESS shipping waived",
+  "orderId": "ORD-004",
+  "status": "PROCESSED",
+  "lineItems": [
+    {
+      "productId": "P004",
+      "productName": "Blue Jeans",
+      "category": "CLOTHING",
+      "quantity": 5,
+      "baseUnitPrice": 60.0,
+      "tierDiscountRate": 0.15,
+      "volumeDiscountRate": 0.03,
+      "discountedUnitPrice": 49.2,
+      "taxRate": 0.05,
+      "taxAmount": 12.3,
+      "lineSubtotal": 246.0,
+      "lineTotal": 258.3
+    },
+    {
+      "productId": "P006",
+      "productName": "Blood Pressure Monitor",
+      "category": "MEDICAL",
+      "quantity": 3,
+      "baseUnitPrice": 120.0,
+      "tierDiscountRate": 0.15,
+      "volumeDiscountRate": 0.0,
+      "discountedUnitPrice": 102.0,
+      "taxRate": 0.12,
+      "taxAmount": 36.72,
+      "lineSubtotal": 306.0,
+      "lineTotal": 342.72
+    },
+    {
+      "productId": "P009",
+      "productName": "Vitamin C Supplements",
+      "category": "MEDICAL",
+      "quantity": 10,
+      "baseUnitPrice": 25.0,
+      "tierDiscountRate": 0.15,
+      "volumeDiscountRate": 0.07,
+      "discountedUnitPrice": 19.5,
+      "taxRate": 0.12,
+      "taxAmount": 23.4,
+      "lineSubtotal": 195.0,
+      "lineTotal": 218.4
+    }
+  ],
+  "subtotal": 747.0,
+  "totalTax": 72.42,
+  "promoCode": "FREESHIP",
+  "promoDiscount": 0.0,
+  "shippingCost": 0.0,
+  "grandTotal": 819.42,
+  "fraudFlags": [],
+  "warnings": [],
+  "errors": [],
+  "message": "Order processed successfully"
+}

@@ -1,0 +1,44 @@
+{
+  "orderId": "ORD-001",
+  "status": "PROCESSED",
+  "lineItems": [
+    {
+      "productId": "P001",
+      "productName": "Laptop Pro",
+      "category": "ELECTRONICS",
+      "quantity": 1,
+      "baseUnitPrice": 1200.0,
+      "tierDiscountRate": 0.1,
+      "volumeDiscountRate": 0.0,
+      "discountedUnitPrice": 1080.0,
+      "taxRate": 0.18,
+      "taxAmount": 194.4,
+      "lineSubtotal": 1080.0,
+      "lineTotal": 1274.4
+    },
+    {
+      "productId": "P002",
+      "productName": "USB Cable",
+      "category": "ELECTRONICS",
+      "quantity": 3,
+      "baseUnitPrice": 15.0,
+      "tierDiscountRate": 0.1,
+      "volumeDiscountRate": 0.0,
+      "discountedUnitPrice": 13.5,
+      "taxRate": 0.18,
+      "taxAmount": 7.29,
+      "lineSubtotal": 40.5,
+      "lineTotal": 47.79
+    }
+  ],
+  "subtotal": 1120.5,
+  "totalTax": 201.69,
+  "promoCode": "SAVE10",
+  "promoDiscount": 112.05,
+  "shippingCost": 8.0,
+  "grandTotal": 1218.14,
+  "fraudFlags": [],
+  "warnings": [],
+  "errors": [],
+  "message": "Order processed successfully"
+}

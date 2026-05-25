@@ -1,0 +1,12 @@
+{
+  "orderId": "ORD-003",
+  "customerId": "C001",
+  "items": [
+    { "productId": "P007", "quantity": 1 },
+    { "productId": "P002", "quantity": 5 }
+  ],
+  "shippingZone": 1,
+  "shippingType": "STANDARD",
+  "allowPartialFulfillment": false,
+  "orderDate": "2026-05-20"
+}

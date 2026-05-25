@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test:integration": "INTEGRATION=true jest tests/integration"
+  },
+  "jest": {
+    "transform": {},
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "joi": "^18.2.1",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
+  }
+}

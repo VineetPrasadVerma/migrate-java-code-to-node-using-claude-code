@@ -1,0 +1,12 @@
+{
+  "orderId": "EDGE-A",
+  "customerId": "C001",
+  "items": [
+    { "productId": "P010", "quantity": 1 }
+  ],
+  "promoCode": "FREESHIP",
+  "shippingZone": 1,
+  "shippingType": "STANDARD",
+  "allowPartialFulfillment": false,
+  "orderDate": "2026-05-20"
+}

@@ -1,0 +1,11 @@
+{
+  "orderId": "EDGE-B",
+  "customerId": "C001",
+  "items": [
+    { "productId": "P002", "quantity": 25 }
+  ],
+  "shippingZone": 1,
+  "shippingType": "STANDARD",
+  "allowPartialFulfillment": false,
+  "orderDate": "2026-05-20"
+}

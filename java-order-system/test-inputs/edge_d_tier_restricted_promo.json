@@ -1,0 +1,12 @@
+{
+  "orderId": "EDGE-D",
+  "customerId": "C003",
+  "items": [
+    { "productId": "P001", "quantity": 1 }
+  ],
+  "promoCode": "GOLD20",
+  "shippingZone": 2,
+  "shippingType": "STANDARD",
+  "allowPartialFulfillment": false,
+  "orderDate": "2026-05-20"
+}

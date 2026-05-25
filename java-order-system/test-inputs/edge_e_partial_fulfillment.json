@@ -1,0 +1,12 @@
+{
+  "orderId": "EDGE-E",
+  "customerId": "C002",
+  "items": [
+    { "productId": "P007", "quantity": 1 },
+    { "productId": "P002", "quantity": 2 }
+  ],
+  "shippingZone": 2,
+  "shippingType": "STANDARD",
+  "allowPartialFulfillment": true,
+  "orderDate": "2026-05-20"
+}

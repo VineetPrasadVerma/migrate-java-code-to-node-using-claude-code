@@ -1,0 +1,11 @@
+{
+  "_comment": "Order REJECTED due to P007 out-of-stock (stock=0)",
+  "orderId": "ORD-003",
+  "status": "REJECTED",
+  "fraudFlags": [],
+  "warnings": [],
+  "errors": [
+    "Insufficient stock for product P007 (Wireless Headphones): requested 1, available 0"
+  ],
+  "message": "Order rejected: insufficient inventory"
+}
